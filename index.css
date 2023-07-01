@@ -1,0 +1,71 @@
+.Employees{
+    padding: 30px;
+}
+.inputDetails{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 30px;
+    justify-content: space-around;
+}
+.inputDetails>div{
+    display: flex;
+    flex-direction: column;
+}
+.inputDetails>div>input{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid wheat;
+}
+.inputDetails>div>input:focus{
+    outline: none;
+    background-color: black;
+
+}
+.newEmployees>label{
+    color: wheat;
+}
+.addUser{
+    margin-top: 14px;
+    color: white;
+}
+.addUser>button{
+    padding: 10px 20px 10px 20px;
+}
+.viewFlex{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.viewFlex>.info{
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.viewContainer{
+    display: flex;
+    justify-content: center;  
+      flex-direction: column;
+
+    gap: 10px;
+    color: rgb(29, 28, 28);
+}
+.DeleteButton{
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+
+}
+.ErrorMessage{
+    color: red;
+}
+.SucessMessage{
+    color: rgb(144, 227, 20);
+}
